@@ -1,0 +1,81 @@
+@import 'tailwindcss';
+@config '../tailwind.config.js';
+
+@theme{
+    --font-inter : "Inter" , sans-serif;
+    --font-inter-font-variation-settings: "opsz" auto; 
+
+    --font-inter-light : "Inter-light" , sans-serif;
+    --font-inter-light-font-variation-settings: "opsz" auto; 
+
+    --font-inter-bold : "Inter-bold" , sans-serif;
+    --font-inter-bold-font-variation-settings: "opsz" auto; 
+
+    --font-inter-semiBold : "Inter-semiBold" , sans-serif;
+    --font-inter-bold-font-variation-settings: "opsz" auto; 
+
+
+    --animate-Slider : slider 0.5s ease-in;
+
+
+    /*dark theme palettes*/
+
+    --color-dark1 : #070F2B;
+    --color-dark2 : #1B1A55;
+    --color-dark3 : #2D3250;
+    --color-dark4 : #9290C3;
+
+    --color-dark5: #030712;
+    --color-dark6: #101828
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../public/fonts/Inter_28pt-Regular.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter-light";
+    src: url('../public/fonts/Inter_24pt-Light.ttf');
+    font-style: normal;
+    font-weight: 100 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url('../public/fonts/Inter_24pt-Bold.ttf');
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter-semiBold";
+    src: url('../public/fonts//Inter_24pt-SemiBold.ttf');
+    font-style:normal;
+    font-display: swap;
+}
+
+/*styles*/
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes slider {
+  0%{
+    width: 60px;
+  }
+  100%{
+    width: 200px;
+  }
+}
+:root{
+  color-scheme: light;
+}
