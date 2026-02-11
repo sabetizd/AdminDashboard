@@ -1,18 +1,56 @@
-# React + Vite
+# 🖥 Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple admin dashboard application built to practice working with REST APIs and handling common CRUD operations in a real-world frontend scenario.
 
-Currently, two official plugins are available:
+<br><br>
+<div align='center'>
+  <a href="https://postimg.cc/ykfBwNfz" target="_blank"><img style='width:80%;height:500' src="https://i.postimg.cc/W1V3qFgt/Screenshot-(48).png" alt="Screenshot-(48)"></a> 
+  <br><br>
+<a href="https://postimg.cc/87jDDV3D" target="_blank"><img style='width:80%;height:500' src="https://i.postimg.cc/mgSrYLyc/Screenshot-(49).png" alt="Screenshot-(49)"></a> 
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+This project demonstrates how to:
 
-Note: This will impact Vite dev & build performances.
+- Consume REST APIs
+- Handle CRUD operations (Create, Read, Update, Delete)
+- Manage application state
+- Handle loading and error states
+- Structure a scalable frontend project
 
-## Expanding the ESLint configuration
+*The goal was to simulate a real admin panel environment where data is dynamically fetched and manipulated through API calls.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- REST API (Supabase / custom backend / mock API)
+
+---
+
+## 📦 Features
+
+- ☀️ Light & Dark mode
+- 📄 Fetch and display user data (GET)
+- ➕ Create new records (POST)
+- ✏️ Update existing records (PUT / PATCH)
+- ❌ Delete records (DELETE)
+- 🔄 Real-time UI updates after API actions
+- 📊 Structured dashboard layout with reusable components
+
+---
+
+## 📁 Project Structure
+```text
+src/
+│
+├── components/
+├── App.css    # global styles and Tailwind overrides.
+├── App.jsx
+├── main.jsx
