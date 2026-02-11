@@ -23,7 +23,14 @@ This project demonstrates how to:
 
 *The goal was to simulate a real admin panel environment where data is dynamically fetched and manipulated through API calls.
 
+
 ---
+
+## 🌐 Live Demo
+Check it out here 👉 [here](https://dashboardsa.netlify.app/)
+
+---
+
 
 ## 🛠 Tech Stack
 
